@@ -12,6 +12,6 @@ def generate_captcha(length=6):
     
     return captcha
 
-# Test the function by generating and printing 5 captchas
+#Test the function by generating and printing 5 captchas
 for _ in range(5):
     print(generate_captcha())
